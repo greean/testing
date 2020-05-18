@@ -7,10 +7,17 @@ class Person {
     increaseHealth(){
         this.health++;
     }
+    decreaseHealth(){
+        this.health--;
+    }
 }
 const andy = new Person("Andy", 100);
+const message = (name) => {
+    return `Hi ${name}, how are you?`;
+};
 
 module.exports = {
     Person,
-    andy
+    andy,
+    message
 }
