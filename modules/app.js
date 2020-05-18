@@ -1,14 +1,14 @@
 const add = (num1, num2) => {
     return num1 + num2;
 }
-
 const subtract = (num1, num2) => {
     return num1 - num2;
 }
+let someNames = ["Andy", "Lucy", "Aidan"];
+
 
 module.exports = {
-    add
-}
-module.exports = {
-    subtract
+    add,
+    subtract,
+    someNames
 }
